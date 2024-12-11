@@ -3,11 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aeonthermotech</title>
+    <title>AeonThermoTech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #00264d, #005a99);
+            color: #f4f4f4;
+        }
+        header {
+            background: #003366;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 4px solid #00bcd4;
+        }
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #003366;
+            background: #00bcd4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #008cba;
+        }
+        footer {
+            background: #00264d;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>
-        Welcome to my journery of website development
-    </h1>
+    <header>
+        <h1>AeonThermoTech</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Innovating the Future of Thermal Engineering and Technology</h2>
+        <p>Welcome to AeonThermoTech, where cutting-edge thermal solutions meet modern technology. Explore our expertise in thermal engineering, programming, and electronics to empower your innovations.</p>
+        <button class="button">Learn More</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AeonThermoTech. All rights reserved.</p>
+    </footer>
 </body>
 </html>
